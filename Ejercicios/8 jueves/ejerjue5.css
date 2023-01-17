@@ -1,0 +1,27 @@
+.sectiongrip{
+    display:grid;
+    height: 100vh;
+    grid-template-rows: 1fr 1fr 98fr;
+    grid-template-columns: 5% 95%;
+    grid-template-areas: 
+    "header header header"
+    "navbar navbar navbar"
+    "sidebar main main"
+    ;
+}
+.header{
+    grid-area: header;
+    background-color: pink;
+}
+.navbar{
+    grid-area: navbar;
+    background-color: aqua;
+}
+.sidebar{
+    grid-area: sidebar;
+    background-color: bisque;
+}
+.main{
+    grid-area: main;
+    background-color: lightgreen;
+}

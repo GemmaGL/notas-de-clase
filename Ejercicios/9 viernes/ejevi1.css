@@ -1,0 +1,21 @@
+body{
+
+}
+.anim{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    transition: all 1s ease-in-out 200ms;
+    color: red;
+}
+.anim:hover{
+    width:200px;
+    height: 300px;
+    background-color: firebrick;
+    margin-left: 100px;
+    color: #fafafa;
+    font-style: bold;
+    font-size: 30px;
+}
+
+

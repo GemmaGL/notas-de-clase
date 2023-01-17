@@ -1,0 +1,13 @@
+Git y Git Hub
+	- fork
+	- clonar
+	- como copiar contenidos de archivos o archivos
+	- como hacer una subcarpeta del repositorio y convertir una en privada y otra en publica
+	- touch crea también documentos que no sean mb? que es un documento md?
+	- cuándo se debe crear un git "oculto" .git  ? --> This command creates a hidden directory - 
+		.git in your project’s folder. This hidden directory is where Git operates and stores its data.
+	- si hacemos un git rm --> tenemos que hacer también los pasos de commit y de push?
+	- cuando clonamos un repositorio, lo hacemos vacío o con todo los archivos que lleva dentro?
+	- div en mas detenimiento
+	
+

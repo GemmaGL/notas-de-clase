@@ -1,0 +1,14 @@
+.secgrid {
+    display:grid;
+    height: 100vh;
+    grid-template-rows: 15% 70% 15%;
+}
+.p1{
+    background-color: pink;
+}
+.p2{
+    background-color: aquamarine;
+}
+.p3{
+    background-color: blanchedalmond;
+}

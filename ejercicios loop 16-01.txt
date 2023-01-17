@@ -1,0 +1,45 @@
+Ejercicios Loop 
+
+16/01/23 - tarde
+
+1- 
+let num=100;
+undefined
+for (i=0; i<=100; i++){console.log(i);}
+
+2- 
+let numbers=[2,84,67,32,5];
+let max = 0;
+
+for(let i=0; i<numbers.length;i++){
+    if(max < numbers[i]){
+        max = numbers[i];
+    }
+}
+
+console.log(max);
+
+------
+
+let numbers=[2,84,67,32,5];
+let max = 0;
+let min = 0;
+
+for(let i=0; i<numbers.length;i++){
+    if(max < numbers[i]){
+        max = numbers[i];
+    }
+}
+
+console.log(max);
+
+for (let i = 0; i < numbers.length ; i++) {
+    if (numbers[i] < min){
+        min = numbers[i];
+    }
+}
+console.log(min);
+
+--------
+
+3- 

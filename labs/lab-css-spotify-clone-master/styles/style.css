@@ -1,0 +1,19 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+.navbar {
+    display: flex;
+    flex-direction: row;
+
+}
+ul{
+    list-style-type: style none;
+}
+.mainbox{
+    background-image: 
+}

@@ -1,5 +1,51 @@
 Git y Git Hub
 
+Comandos
+// para escribir comentarios para nosotros
+
+ls --> "imprimir". Ver lo que hay en un sitio
+
+cd --> entrar en una carpeta
+
+cd .. --> salir de una carpeta
+
+mkdir --> crear una carpeta
+rmdir --> borra una carpeta
+
+touch nombre.terminación(txt,mb, html,pdf,xls,...) --> crear un archivo
+rm --> elimina un archivo especifico
+
+copy --> copiar un archivo
+cp
+
+move --> mueve un archivo
+mv --> mueve un archivo de un sitio a otro; ej: 
+
+clear --> para borrar la pantalla
+
+git status --> para ir chequeando los cambios
+
+Cuando creamos un archivo (touch) luego debemos añadirlo a git para que pueda ir traqueandolo en Git y ver si
+hay cambios. Sino hacemos esto, no habrá manera de poder volver a los cambios anteriores. La manera de hacerlo es:
+
+git add .  <o> git add y el nombre del archivo
+git commit -m "ponemos info sobre lo que hacemos"
+git push origin main
+
+
+git rm --cached  --> Si quieres sacar archivos del git para que no se traqueen.
+
+
+git log --> te da más información sobre quien ha hecho cada cosa
+
+
+When we clone a GitHub repository, we are copying the entire project to our local computer.descargar. Copias el
+link y luego te pones en la carpeta donde lo quieres clonar y 
+git clone (y pegas el link)
+
+
+
+más info: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line
 
 
 __________________________________________________________
