@@ -1,0 +1,26 @@
+// corrección del lab
+
+//funtions and arrays
+
+//ejercicio 1
+
+const maxOfTwoNumber = (num1, num2) =>{
+
+//v1
+    if(num1 === num2){
+        console.log(`${num1} & ${num2} are the same number`);
+    }
+    else if (num1 > num2){
+        console.log(`In this case ${num1} is bigger than ${num2}`):
+    }
+    else {
+        console.log(`In this case ${num1} is smaller than ${num2}`);
+    }
+};
+console.log maxOfTwoNumber (3,5);
+
+//v2
+
+const maxOfTwoNumber =(a,b) => {
+    return a>b? a : a === b? a: b;
+}

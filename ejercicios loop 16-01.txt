@@ -4,7 +4,6 @@ Ejercicios Loop
 
 1- 
 let num=100;
-undefined
 for (i=0; i<=100; i++){console.log(i);}
 
 2- 
@@ -43,3 +42,36 @@ console.log(min);
 --------
 
 3- 
+
+let numbers=20;
+for (let i=0;i<=numbers;i++){
+  if(i%2 !=0){continue}
+  {console.log(i);}}
+
+
+4 - 
+
+let numeroAdivinar = 7
+let numeroIngresado = 0
+
+
+do{
+console.log(numeroIngresado);
+numeroIngresado++;}
+
+while{numeroIngresado < numeroAdivinado);
+
+
+------
+
+lab del viernes 9 de enero
+
+let hacker1 = "Gemma";
+let hacker2= "Angel";
+console.log("The driver is "  + hacker1);
+console.log("The navigator's name is "  + hacker2);
+if (hacker1.length > hacker2.length){
+  console.log(`The driver has the longest name, it has ${hacker1.length} characters.`);}
+else if(hacker1.length < hacker2.length){
+  console.log(`It seems that the navigator has the longest name, it has ${hacker2.length} characters.`);
+} else {console.log(`Wow, you both have equally long names, ${hacker1.length} characters!`);}
