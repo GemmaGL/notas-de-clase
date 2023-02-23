@@ -1,11 +1,17 @@
 <script setup>
 import HelloWorld from "./components/HelloWorld.vue";
 import BindDirectiveEx from "./components/BindDirectiveEx.vue";
+import ToDoItem from "./components/ToDoItem.vue";
 </script>
 
 <template>
   <main>
-    <BindDirectiveEx></BindDirectiveEx>
+    <!-- <BindDirectiveEx></BindDirectiveEx>-->
+    <h1>To DO list</h1>
+    <ul>
+      <li><to-do-item></to-do-item></li>
+      <ToDoItem></ToDoItem>
+    </ul>
   </main>
 </template>
 

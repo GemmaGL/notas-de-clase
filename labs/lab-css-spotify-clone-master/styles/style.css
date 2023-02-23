@@ -6,14 +6,150 @@ Green: #00B172
 White: #FFF
 
 */
-.navbar {
-    display: flex;
-    flex-direction: row;
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1a1a1a;
 }
-ul{
-    list-style-type: style none;
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 12px;
+  text-decoration: none;
 }
-.mainbox{
-    background-image: 
+
+ul {
+  list-style-type: style none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar img {
+  width: 150px;
+}
+
+.headerbox {
+  background-image: url(../images/landing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+}
+
+.headerbox h1 {
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+
+.headerbox h1 {
+  font-size: 40px;
+  padding-top: 100px;
+}
+
+.headerbox p {
+  font-size: 15px;
+  padding-left: 110px;
+  padding-right: 110px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+
+/* section 2*/
+
+.contenedor0 h2 {
+  text-align: center;
+  text-decoration: underline #00b172;
+}
+
+.contenedor1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.contenedor3 {
+  display: flex;
+  color: #1a1a1a;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 10px;
+}
+
+.contenedor3 img {
+  width: 50px;
+}
+
+.contenedor3 h4 {
+  color: #00b172;
+  font-style: bold;
+  font-size: 12px;
+}
+
+#green-section {
+  background: #00b172;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  color: #fff;
+  margin: 3%;
+  padding: 3%;
+  height: auto;
+  text-align: center;
+
+  position: relative;
+}
+#green-section h1 {
+  width: 90%;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: left;
+}
+
+#green-section h1 span {
+  border-bottom: 4px solid #fff;
+}
+#green-section h2 {
+  font-weight: 500;
+}
+#green-section p {
+  font-weight: 100;
+  font-size: 1.5rem;
+  text-align: left;
+}
+#green-section .app-img {
+  width: 55%;
+}
+#green-section .white-spotify {
+  width: 9vw;
+}
+#green-section .external-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+}
+#green-section .internal-div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  width: 45%;
+}
+#green-section .internal-div2 {
+  width: 10%;
+}
+#green-section .internal-div3 {
+  width: 45%;
 }
